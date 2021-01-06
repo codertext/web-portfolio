@@ -16,8 +16,9 @@ h1{
 
 .single-experience{
     box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
     height: 60%;
+    background-color: white;
 }
 
 .name-highlight{
@@ -50,6 +51,12 @@ h1{
     padding: 5px;
     width: 95%;
 }
+.experiance-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top 25%;
+    background-size: 65px 130px;
+}
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
@@ -73,4 +80,23 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff5252, rgb(98, 14, 194));
+    border-image-slice: 1;
+
+}
+
+#junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff5252, rgb(0, 255, 157));
+    border-image-slice: 1;
+}
+
+.footer{
+    color: rgb(70, 69, 69);
+    text-align: center;
+    font-size: 15px;
 }
