@@ -12,6 +12,11 @@ h1{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 82, 82);
 }
+.mentor{
+    color: #ff5252;
+    font-size: 15px;
+    font-weight: 500;
+}
 
 .half-width{
     width: 40%;
@@ -25,18 +30,21 @@ h1{
 }
 .half-width p{
     text-align: justify;
+    color: dimgray;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+
 }
 .dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
-    position: ;
+    background-position: right;
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 
 .link-button{
