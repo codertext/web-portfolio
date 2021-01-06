@@ -8,9 +8,19 @@ h1{
     font-weight: 900;
 }
 
+.experience-header{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
 .name-highlight{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 82, 82);
+}
+
+.orange-highlight{
+    color: #ff5252;
 }
 .mentor{
     color: #ff5252;
