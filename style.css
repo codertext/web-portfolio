@@ -14,6 +14,12 @@ h1{
     padding-left: 2%;
 }
 
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+}
+
 .name-highlight{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 82, 82);
@@ -41,6 +47,8 @@ h1{
 .half-width p{
     text-align: justify;
     color: dimgray;
+    padding: 5px;
+    width: 95%;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
